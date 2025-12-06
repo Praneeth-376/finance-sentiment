@@ -1,0 +1,32 @@
+{
+  "name": "finance-sentiment-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "chart.js": "^4.5.1",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "chartjs-chart-financial": "^0.2.1",
+    "chartjs-plugin-crosshair": "^2.0.0",
+    "chartjs-plugin-zoom": "^2.2.0",
+    "lightweight-charts": "^3.8.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18.2.0",
+    "react-resize-detector": "^12.3.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "socket.io-client": "^4.7.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.0.0"
+  }
+}
