@@ -279,7 +279,6 @@ export default function App() {
     setCompareStocks(compareStocks.filter(s => s !== symbol));
     console.log(`➖ Removed ${symbol} from compare`);
   }
-console.log("💙 API_BASE:", API_BASE);
 
   // Timeframe options
   const timeframeOptions = [
